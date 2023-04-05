@@ -15,7 +15,13 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body
+    class="bg-image"
+    style="
+      background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp');
+      height: 400px;
+    "
+  >
     <header class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -58,103 +64,240 @@
       <div class="raw">
         <div class="col">
           <h1>Hey there. I’m Alex. I’m a software developer</h1>
-          <p>
-            I can help you build a product , feature or website Look through
-            some of my work and experience! If you like what you see and have a
-            project you need coded, don’t hesitate to contact me.
-          </p>
         </div>
       </div>
     </div>
     <section class="container">
       <h1>My Recent Works</h1>
       <div class="row">
+        <div class="col col-md-4">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Multi-Post Stories Gain+Glory</h5>
+
+              <span class="badge bg-secondary">Ruby on rails</span>
+              <span class="badge bg-secondary">CSS</span>
+              <span class="badge bg-secondary">Javascript</span>
+              <span class="badge bg-secondary">HTML</span>
+              <button type="button" class="btn btn-success">See Project</button>
+            </div>
+          </div>
+        </div>
         <div class="col">
-      <div class="card" style="width: 18rem;">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <span class="badge bg-secondary">Ruby on rails</span>
-        <span class="badge bg-secondary">CSS</span>
-        <span class="badge bg-secondary">Javascript</span>
-        <span class="badge bg-secondary">HTML</span>
-        <button type="button" class="btn btn-success">See Project</button>
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Multi-Post Stories Gain+Glory<</h5>
+
+              <span class="badge bg-secondary">Ruby on rails</span>
+              <span class="badge bg-secondary">CSS</span>
+              <span class="badge bg-secondary">Javascript</span>
+              <span class="badge bg-secondary">HTML</span>
+              <button type="button" class="btn btn-success">See Project</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Multi-Post Stories Gain+Glory</h5>
+
+              <span class="badge bg-secondary">Ruby on rails</span>
+              <span class="badge bg-secondary">CSS</span>
+              <span class="badge bg-secondary">Javascript</span>
+              <span class="badge bg-secondary">HTML</span>
+              <button type="button" class="btn btn-success">See Project</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Multi-Post Stories Gain+Glory<</h5>
+
+              <span class="badge bg-secondary">Ruby on rails</span>
+              <span class="badge bg-secondary">CSS</span>
+              <span class="badge bg-secondary">Javascript</span>
+              <span class="badge bg-secondary">HTML</span>
+              <button type="button" class="btn btn-success">See Project</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Multi-Post Stories Gain+Glory<</h5>
+
+              <span class="badge bg-secondary">Ruby on rails</span>
+              <span class="badge bg-secondary">CSS</span>
+              <span class="badge bg-secondary">Javascript</span>
+              <span class="badge bg-secondary">HTML</span>
+              <button type="button" class="btn btn-success">See Project</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Multi-Post Stories Gain+Glory<</h5>
+
+              <span class="badge bg-secondary">Ruby on rails</span>
+              <span class="badge bg-secondary">CSS</span>
+              <span class="badge bg-secondary">Javascript</span>
+              <span class="badge bg-secondary">HTML</span>
+
+              <button type="button" class="btn btn-success">See Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+      >
+        Launch static backdrop modal
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">...</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h2>
+        </div>
+        <div class="col">
+          <form>
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form6Example1" class="form-control" />
+                  <label class="form-label" for="form6Example1"
+                    >First name</label
+                  >
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form6Example2" class="form-control" />
+                  <label class="form-label" for="form6Example2"
+                    >Last name</label
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form6Example5" class="form-control" />
+              <label class="form-label" for="form6Example5">Email adress</label>
+            </div>
+
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea
+                class="form-control"
+                id="form6Example7"
+                rows="4"
+              ></textarea>
+              <label class="form-label" for="form6Example7"
+                >Additional information</label
+              >
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input
+                class="form-check-input me-2"
+                type="checkbox"
+                value=""
+                id="form6Example8"
+                checked
+              />
+              <label class="form-check-label" for="form6Example8">
+                Create an account?
+              </label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">
+              Get in touch
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-  <div class="col">
-<div class="card" style="width: 18rem;">
-<div class="card-body">
-  <h5 class="card-title">Card title</h5>
-  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <span class="badge bg-secondary">Ruby on rails</span>
-  <span class="badge bg-secondary">CSS</span>
-  <span class="badge bg-secondary">Javascript</span>
-  <span class="badge bg-secondary">HTML</span>
-  <button type="button" class="btn btn-success">See Project</button>
-</div>
-</div>
-</div>
-  <div class="col">
-<div class="card" style="width: 18rem;">
-<div class="card-body">
-  <h5 class="card-title">Card title</h5>
-  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <span class="badge bg-secondary">Ruby on rails</span>
-  <span class="badge bg-secondary">CSS</span>
-  <span class="badge bg-secondary">Javascript</span>
-  <span class="badge bg-secondary">HTML</span>
-  <button type="button" class="btn btn-success">See Project</button>
-</div>
-</div>
-</div>
-  <div class="col">
-<div class="card" style="width: 18rem;">
-<div class="card-body">
-  <h5 class="card-title">Card title</h5>
-  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <span class="badge bg-secondary">Ruby on rails</span>
-  <span class="badge bg-secondary">CSS</span>
-  <span class="badge bg-secondary">Javascript</span>
-  <span class="badge bg-secondary">HTML</span>
-  <button type="button" class="btn btn-success">See Project</button>
-</div>
-</div>
-</div>
-  <div class="col">
-<div class="card" style="width: 18rem;">
-<div class="card-body">
-  <h5 class="card-title">Card title</h5>
-  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <span class="badge bg-secondary">Ruby on rails</span>
-  <span class="badge bg-secondary">CSS</span>
-  <span class="badge bg-secondary">Javascript</span>
-  <span class="badge bg-secondary">HTML</span>
-  <button type="button" class="btn btn-success">See Project</button>
-</div>
-</div>
-</div>
-  <div class="col">
-<div class="card" style="width: 18rem;">
-<div class="card-body">
-  <h5 class="card-title">Card title</h5>
-  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <span class="badge bg-secondary">Ruby on rails</span>
-  <span class="badge bg-secondary">CSS</span>
-  <span class="badge bg-secondary">Javascript</span>
-  <span class="badge bg-secondary">HTML</span>
-  <button type="button" class="btn btn-success">See Project</button>
-</div>
-</div>
-</div>
-</div>  
-  </section>
 
     <!-- Bootstrap Bundle with Popper -->
     <script
